@@ -29,7 +29,7 @@ import { SessionTypesAsStrings } from 'genesys-cloud-streaming-client';
 import { Constants } from 'stanza';
 import ScreenRecordingSessionHandler from './screen-recording-session-handler';
 import LiveMonitoringSessionHandler from './live-monitoring-session-handler';
-import { WebrtcExtensionAPI } from 'genesys-cloud-streaming-client/dist/es/webrtc';
+import { WebrtcExtensionAPI } from 'genesys-cloud-streaming-client/src/webrtc';
 
 const sessionHandlersToConfigure: (new (sdk: GenesysCloudWebrtcSdk, sessionManager: SessionManager) => BaseSessionHandler)[] = [
   SoftphoneSessionHandler,

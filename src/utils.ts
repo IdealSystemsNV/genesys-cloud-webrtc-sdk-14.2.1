@@ -1,6 +1,6 @@
 /* eslint @typescript-eslint/no-explicit-any: "off" */
 import { ConnectionState, RequestApiOptions } from 'genesys-cloud-streaming-client';
-import { RetryPromise } from 'genesys-cloud-streaming-client/dist/es/utils';
+import { RetryPromise } from 'genesys-cloud-streaming-client/src/utils';
 
 import { GenesysCloudWebrtcSdk } from './client';
 import { SdkErrorTypes, LogLevels } from './types/enums';
